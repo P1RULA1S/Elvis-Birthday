@@ -326,6 +326,7 @@ transform:translateY(0px);
 grid-template-columns:1fr;
 
 }
+}
 
 /* Y2K racing skin */
 :root {
@@ -497,36 +498,4 @@ footer { margin-top: 0; background: #020302; border-top: 2px solid var(--acid); 
 .sidebar { display: grid; grid-template-columns: repeat(2, 1fr); }
 .menu-title, .visitor-box { grid-column: 1 / -1; }
 .main-photo { height: 270px; }
-}
-
-.rightbar{
-
-order:3;
-
-}
-
-.sidebar{
-
-order:1;
-
-}
-
-.content{
-
-order:2;
-
-}
-
-.main-photo{
-
-height:300px;
-
-}
-
-.logo{
-
-font-size:2rem;
-
-}
-
 }
