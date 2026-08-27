@@ -432,7 +432,7 @@ border: 2px solid var(--acid);
 box-shadow: 0 0 0 2px #050805;
 }
 
-.sidebar button {
+.sidebar button, .sidebar .menu-button {
 background: #101b12;
 color: #f1f8ee;
 border: 1px solid var(--line);
@@ -441,11 +441,12 @@ padding: 10px 8px;
 font-family: 'Orbitron', sans-serif;
 font-size: .68rem;
 text-align: left;
+text-decoration: none;
 letter-spacing: .03em;
 transition: background .15s, color .15s, padding-left .15s;
 }
 
-.sidebar button:hover, .sidebar button:focus-visible {
+.sidebar button:hover, .sidebar button:focus-visible, .sidebar .menu-button:hover, .sidebar .menu-button:focus-visible {
 background: var(--acid);
 color: #071000;
 padding-left: 14px;
